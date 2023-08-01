@@ -13,11 +13,13 @@ export const LinkHeader = styled.a`
     font-weight: 500;
     cursor: pointer;
 
-    :hover {
+    &:hover {
     text-decoration: underline;
+    color: #5B8DC9;
+    font-weight: 700;
     }
 
-    :active {
+    &:active {
     color: #5B8DC9;
     }
 `;

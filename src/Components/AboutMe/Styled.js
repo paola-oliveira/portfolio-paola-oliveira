@@ -3,8 +3,8 @@ import {MdLocationPin} from "react-icons/md";
 
 export const SectionAboutMe = styled.section`
     margin-top: 132px;
+    margin-bottom: 70px;
     width: 100%;
-    height: 70vh;
     display: flex;
     justify-content: space-around;
     background-color: #FFF4EB;
