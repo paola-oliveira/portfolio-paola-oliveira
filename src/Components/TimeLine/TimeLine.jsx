@@ -78,7 +78,7 @@ export const SectionExperienceEducation = styled.section`
 `;
 
 export const TextTimeline = styled.p`
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     color: #000;
     font-family: 'Quicksand', sans-serif;
