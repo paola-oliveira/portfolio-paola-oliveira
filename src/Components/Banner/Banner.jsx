@@ -1,9 +1,9 @@
-import { BannerImage } from "./Styled";
+import { BannerImage, } from "./Styled";
 
 function Banner() {
     return (
      <section>
-        <BannerImage src="../../../public/Images/banner.png"/>
+            <BannerImage src="../../../public/Images/banner.png"/>
      </section>
     );
   }

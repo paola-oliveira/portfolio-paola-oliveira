@@ -2,7 +2,7 @@ import { DivCard, DivLeft, DivRight, ImgAboutMe, ImgProfile, SectionAboutMe, Sty
 
 function AboutMe () {
     return (
-        <SectionAboutMe>
+        <SectionAboutMe id="sobre-mim">
             <DivLeft>
                 <DivCard>
                     <ImgProfile src="../../../public/Images/profile.png"/>

@@ -2,7 +2,7 @@ import { DivTechnologies, IconCss, IconFigma, IconHtml, IconJavaScript, IconJest
 
 function Technologies () {
     return (
-        <SectionTechnologies>
+        <SectionTechnologies id="tecnologias">
             <ImgTechnologies src="../../../public/Images/Technologies.png"/>
             <DivTechnologies>
                 <IconJavaScript />

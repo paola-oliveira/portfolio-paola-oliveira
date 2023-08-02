@@ -3,11 +3,11 @@ import { LinkHeader, SectionHeader } from "./Styled";
 function Header() {
     return (
      <SectionHeader>
-        <LinkHeader>Sobre Mim</LinkHeader>
-        <LinkHeader>Tecnologias</LinkHeader>
-        <LinkHeader>Minhas Experiências</LinkHeader>
-        <LinkHeader>Projetos</LinkHeader>
-        <LinkHeader>Contato</LinkHeader>
+        <LinkHeader href="#sobre-mim">Sobre Mim</LinkHeader>
+        <LinkHeader href="#tecnologias">Tecnologias</LinkHeader>
+        <LinkHeader href="#experiencia-escolaridade">Minhas Experiências</LinkHeader>
+        <LinkHeader href="#projetos">Projetos</LinkHeader>
+        <LinkHeader href="#contatos">Contato</LinkHeader>
      </SectionHeader>
     );
   }
