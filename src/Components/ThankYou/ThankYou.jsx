@@ -1,9 +1,10 @@
 import { styled } from "styled-components";
+import thankyou from "../../images/thankyou.png"
 
 function ThankYou () {
     return (
         <SectionThankYou>
-             <ImgThankYou src="../../../public/Images/thankyou.png"/>
+             <ImgThankYou src={thankyou}/>
         </SectionThankYou>
     )
 }

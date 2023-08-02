@@ -8,13 +8,25 @@ import {
   TextProjects,
 } from "./Styled";
 
+import projects from "../../images/projects.png";
+import cipher from "../../images/cipher.png";
+import datalovers from "../../images/datalovers.png";
+import social from "../../images/social.png";
+import mdlinks from "../../images/mdlinks.png";
+import burguerqueen from "../../images/burguerqueen.png";
+import organize from "../../images/organize.png";
+import loggi from "../../images/loggi.png";
+import finder from "../../images/finder.png";
+
+
+
 function Projects() {
   return (
     <SectionProjects id="projetos">
-      <ImgProjects src="../../../public/Images/projects.png" />
+      <ImgProjects src={projects} />
       <DivTotalCards>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/cipher.png" />
+          <ProjectsImg src={cipher} />
           <TextProjects>Cifra de César</TextProjects>
           <LinkProjects
             href="https://github.com/paola-oliveira/SAP009-cipher"
@@ -25,7 +37,7 @@ function Projects() {
           </LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/datalovers.png" />
+          <ProjectsImg src={datalovers} />
           <TextProjects>Data Lovers</TextProjects>
           <LinkProjects  
             href="https://github.com/paola-oliveira/SAP009-data-lovers"
@@ -33,7 +45,7 @@ function Projects() {
             rel="noopener noreferrer">Confira o Projeto</LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/social.png" />
+          <ProjectsImg src={social} />
           <TextProjects>Social NetWork</TextProjects>
           <LinkProjects
           href="https://github.com/paola-oliveira/SAP009-social-network"
@@ -41,7 +53,7 @@ function Projects() {
           rel="noopener noreferrer">Confira o Projeto</LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/mdlinks.png" />
+          <ProjectsImg src={mdlinks} />
           <TextProjects>MdLinks</TextProjects>
           <LinkProjects
           href="https://github.com/paola-oliveira/SAP009-md-links"
@@ -49,7 +61,7 @@ function Projects() {
           rel="noopener noreferrer">Confira o Projeto</LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/burguerqueen.png" />
+          <ProjectsImg src={burguerqueen} />
           <TextProjects>Burguer Queen</TextProjects>
           <LinkProjects
           href="https://github.com/paola-oliveira/Bobs-Burguer"
@@ -57,7 +69,7 @@ function Projects() {
           rel="noopener noreferrer">Confira o Projeto</LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/organize.png" />
+          <ProjectsImg src={organize} />
           <TextProjects>Organizador de Roteiros</TextProjects>
           <LinkProjects
           href="https://github.com/paola-oliveira/Organizador-de-roteiros"
@@ -65,7 +77,7 @@ function Projects() {
           rel="noopener noreferrer">Confira o Projeto</LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/loggi.png" />
+          <ProjectsImg src={loggi} />
           <TextProjects>Desafio Loggi</TextProjects>
           <LinkProjects
           href="https://github.com/paola-oliveira/desafio-frontend"
@@ -73,7 +85,7 @@ function Projects() {
           rel="noopener noreferrer">Confira o Projeto</LinkProjects>
         </DivCardProjects>
         <DivCardProjects>
-          <ProjectsImg src="../../../public/Images/finder.png" />
+          <ProjectsImg src={finder} />
           <TextProjects>GitHub Finder</TextProjects>
           <LinkProjects
           href="https://github.com/paola-oliveira/GitHub-Finder"

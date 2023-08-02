@@ -1,9 +1,10 @@
 import { DivTechnologies, IconCss, IconFigma, IconHtml, IconJavaScript, IconJest, IconNode, IconReact, IconTypeScript, ImgTechnologies, SectionTechnologies } from "./Styled";
+import technologies from "../../images/Technologies.png"
 
 function Technologies () {
     return (
         <SectionTechnologies id="tecnologias">
-            <ImgTechnologies src="../../../public/Images/Technologies.png"/>
+            <ImgTechnologies src={technologies}/>
             <DivTechnologies>
                 <IconJavaScript />
                 <IconHtml />
