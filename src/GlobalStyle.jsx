@@ -20,6 +20,10 @@ const GlobalStyle = createGlobalStyle`
   body {
    background-color: #FFF4EB;
   }
+
+  html {
+  scroll-behavior: smooth;
+}
 `;
 
 export default GlobalStyle;
