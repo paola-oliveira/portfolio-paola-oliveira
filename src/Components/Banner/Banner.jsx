@@ -1,9 +1,10 @@
-import { BannerImage, } from "./Styled";
+import { BannerImage } from "./Styled";
+import banner from "../../images/banner.png"
 
 function Banner() {
     return (
      <section>
-            <BannerImage src="../../../public/Images/banner.png"/>
+            <BannerImage src={banner}/>
      </section>
     );
   }

@@ -1,11 +1,13 @@
 import { DivCard, DivLeft, DivRight, ImgAboutMe, ImgProfile, SectionAboutMe, StyledMdLocationPin, TextAboutMe, TextProfile } from "./Styled";
+import profile from "../../images/profile.png";
+import AboutMeImg from "../../images/AboutMe.png"
 
 function AboutMe () {
     return (
         <SectionAboutMe id="sobre-mim">
             <DivLeft>
                 <DivCard>
-                    <ImgProfile src="../../../public/Images/profile.png"/>
+                    <ImgProfile src={profile}/>
                     <TextProfile>
                         <StyledMdLocationPin/>
                         <span>Piracaia, SP</span>
@@ -15,7 +17,7 @@ function AboutMe () {
                 </DivCard>
             </DivLeft>
             <DivRight>
-                <ImgAboutMe src="../../../public/Images/AboutMe.png" />
+                <ImgAboutMe src={AboutMeImg} />
                     <TextAboutMe>
                         Sou formada em psicologia e atualmente estou em
                         transição de carreira para a área de tecnologia.

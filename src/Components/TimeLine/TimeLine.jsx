@@ -1,11 +1,13 @@
 import { Timeline } from 'antd';
 import { DivCircle, DivExperience, ImgEducation, ImgExperience, SectionExperienceEducation, TextTimeline } from './Styled';
+import experience from "../../images/experience.png";
+import education from "../../images/education.png"
 
 
 const TimeLine = () => (
 <SectionExperienceEducation id="experiencia-escolaridade">
     <DivExperience>
-    <ImgExperience src="../../../public/Images/experience.png"/>
+    <ImgExperience src={experience}/>
     <Timeline
         items={[
         {
@@ -28,7 +30,7 @@ const TimeLine = () => (
     />
     </DivExperience>
     <div>
-    <ImgEducation src="../../../public/Images/education.png"/>
+    <ImgEducation src={education}/>
     <Timeline
         items={[
         {

@@ -1,12 +1,13 @@
 import { styled } from "styled-components";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { SiLinkedin, SiGithub  } from "react-icons/si";
+import contats from "../../images/contats.png"
 
 
 function Contats () {
     return (
         <SectionContats id="contatos">
-            <ImgContats src="../../../public/Images/contats.png"/>
+            <ImgContats src={contats}/>
             <DivEmail>
                 <IconEmail/>
                 <TextEmail>paolanatalia_oliveira@outlook.com</TextEmail>
