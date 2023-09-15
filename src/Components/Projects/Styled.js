@@ -84,7 +84,7 @@ export const LinkProjects = styled.a`
     color: #5B8DC9;
     font-weight: bold;
     background-color: #FFFCF3;
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
@@ -110,3 +110,8 @@ export const TextProjects = styled.p`
         font-size: 16px;
     }
 `;
+
+export const DivLinks = styled.div `
+    display: flex;
+    gap: 10px;
+`

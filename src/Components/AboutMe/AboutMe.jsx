@@ -12,7 +12,7 @@ function AboutMe () {
                         <StyledMdLocationPin/>
                         <span>Piracaia, SP</span>
                     </TextProfile>
-                    <TextProfile>25 anos</TextProfile>
+                    <TextProfile>26 anos</TextProfile>
                     <TextProfile>Desenvolvedora Web Front-end</TextProfile>
                 </DivCard>
             </DivLeft>
