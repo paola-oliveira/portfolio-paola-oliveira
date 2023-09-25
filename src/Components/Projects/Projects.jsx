@@ -15,7 +15,7 @@ import datalovers from "../../images/datalovers.png";
 import social from "../../images/social.png";
 import mdlinks from "../../images/mdlinks.png";
 import burguerqueen from "../../images/burguerqueen.png";
-import organize from "../../images/organize.png";
+import organize from "../../images/organize2.png";
 import loggi from "../../images/loggi.png";
 import finder from "../../images/finder.png";
 
